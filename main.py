@@ -7,7 +7,7 @@ from make_plot import plot_dIdV
 def main():
     params = SystemParameters(width=30, length=20, lengthf=20)
     hamiltonian = HamiltonianBuilder(params)
-    device_chain = DeviceChain(include_filter=False, hamiltonian_builder=hamiltonian)
+    device_chain = DeviceChain(include_filter=True, hamiltonian_builder=hamiltonian)
     green_solver = GreenFunctionSolver(device_chain=device_chain)
 
     E_start = -0.2
