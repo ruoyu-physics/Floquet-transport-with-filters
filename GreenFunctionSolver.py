@@ -2,7 +2,6 @@ import numpy as np
 from numpy import conj
 from numpy.linalg import inv
 
-
 class GreenFunctionSolver:
     """
     Recursive Green's function solver for transport calculations.
