@@ -9,7 +9,7 @@ The code is designed with modular structure, separating:
 
 ---
 
-## 🚀 Features
+## Features
 
 - Floquet Hamiltonian construction using Bessel expansion
 - Recursive Green’s function algorithm (O(N) scaling in system length)
@@ -19,7 +19,7 @@ The code is designed with modular structure, separating:
 
 ---
 
-## 🧠 Physical Model
+## Physical Model
 
 The simulation models a driven lattice system (e.g., graphene-like structure) under a time-periodic vector potential.
 
@@ -31,7 +31,7 @@ Key components:
 
 ---
 
-## 🏗️ Code Structure
+## Code Structure
 
 - `config.py`  
   Defines all physical and numerical parameters using a dataclass.
