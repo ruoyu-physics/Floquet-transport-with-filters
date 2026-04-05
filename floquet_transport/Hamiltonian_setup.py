@@ -1,5 +1,5 @@
 import numpy as np
-from config import BOND_ANGLE
+from floquet_transport.config import BOND_ANGLE
 from numpy import exp, identity
 from scipy.special import jv
 
