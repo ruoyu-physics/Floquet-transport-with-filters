@@ -13,7 +13,7 @@ The code is designed with modular structure, separating:
 
 The simulation models a driven honeycomb lattice system under a circularly polarized vector potential. The system is coupled to two ideal metallic leads from left and right. When included, filters are inserted between the leads and the system. Filters are designed to have a narrow and isolated band (square lattice in our case) to block photon-assisted transport processes. Differential conductance dI/dV is calculated using Floquet-Landauer formula: 
 
-\( \frac{dI}{dV} = \sum_m ( T_{\mathrm{RL}}^{(m)} + T_{\mathrm{LR}}^{(m)} ) \)
+$$ \frac{dI}{dV} = \sum_m ( T_{\mathrm{RL}}^{(m)} + T_{\mathrm{LR}}^{(m)} ) $$
 
 When filters are applied, we expect a quantized dI/dV in both resonantly and off-resonantly opened gaps. For more details, see our paper: 
 Ruoyu Zhang, Frederik Nathan, Netanel H. Lindner, and Mark S. Rudner, 
