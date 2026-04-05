@@ -16,10 +16,11 @@ The simulation models a driven honeycomb lattice system under a circularly polar
 $$ \frac{dI}{dV} = \sum_m ( T_{\mathrm{RL}}^{(m)} + T_{\mathrm{LR}}^{(m)} ) $$
 
 When filters are applied, we expect a quantized dI/dV in both resonantly and off-resonantly opened gaps. For more details, see our paper: 
-Ruoyu Zhang, Frederik Nathan, Netanel H. Lindner, and Mark S. Rudner, 
-"Achieving quantized transport in Floquet topological insulators via energy filters, 
-"Phys. Rev. B 110, 075428 (2024). 
-https://doi.org/10.1103/PhysRevB.110.075428
+
+>Ruoyu Zhang, Frederik Nathan, Netanel H. Lindner, and Mark S. Rudner, 
+>"Achieving quantized transport in Floquet topological insulators via energy filters, 
+>"Phys. Rev. B 110, 075428 (2024). 
+>https://doi.org/10.1103/PhysRevB.110.075428
 
 ---
 
